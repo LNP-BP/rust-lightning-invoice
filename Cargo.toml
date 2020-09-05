@@ -11,9 +11,9 @@ readme = "README.md"
 
 [dependencies]
 bech32 = "0.7"
-secp256k1 = { version = "0.17", features = ["recovery"] }
+secp256k1 = { version = "0.19", features = ["recovery"] }
 num-traits = "0.2.8"
-bitcoin_hashes = "0.7"
+bitcoin_hashes = { github = "https://github.com/LNP-BP/bitcoin_hashes", tag = "lnpbp-v0.1.0-beta-3" }
 
 [lib]
 crate-type = ["cdylib", "rlib"]
