@@ -4,7 +4,7 @@ rust:
   - nightly
   - beta
   - stable
-  - 1.22.0 # min. supported rust version
+  - 1.29.0 # min. supported rust version
 cache: cargo
 
 jobs:
